@@ -1,0 +1,29 @@
+# Ignore build directory
+/build/
+/external/googletest/
+
+# Ignore CMake cache files and directories
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Ignore clangd cache and configuration files
+.clangd/
+*.clangd/
+*.clang-format
+
+# Ignore compiler and IDE specific files
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.dylib
+*.so
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
