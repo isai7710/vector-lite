@@ -11,6 +11,7 @@ cmake_install.cmake
 .clangd/
 *.clangd/
 *.clang-format
+.cache/
 
 # Ignore compiler and IDE specific files
 *.o
