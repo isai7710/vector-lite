@@ -9,7 +9,7 @@
 //    number of 'double' values and returns the pointer to the first element of
 //    this array
 
-// Visualization of what this does to data_:
+// Visualization of what this does to the data_ variable:
 /*    new double[size]:  [    ][    ][    ][    ]  ... (size elements)     */
 /*                         ^     */
 /*                         |     */
