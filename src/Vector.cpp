@@ -9,11 +9,11 @@
 //    number of 'double' values and returns the pointer to the first element of
 //    this array
 
-// Visualization of what this does to the data_ variable:
-/*    new double[size]:  [    ][    ][    ][    ]  ... (size elements)     */
-/*                         ^     */
-/*                         |     */
-/*    data_: --------------+     */
+// Visualization of how constructor initializes data_:
+/*    new double[size]:  [    ][    ][    ][    ]  ... (size elements)      */
+/*                         ^                                                */
+/*                         |                                                */
+/*    data_: --------------+                                                */
 
 Vector::Vector(size_t size) : size_(size), data_(new double[size]) {}
 
