@@ -18,3 +18,7 @@ TEST_F(PreBuiltVector, GivenAPreBuiltVector_WhenCheckingSize_) {
   EXPECT_EQ(vec.size(), 4);
 }
 
+TEST(SizeTest, WhenInitializingVector_ExpectCorrectSize) {
+  Vector myVec(3);
+  EXPECT_EQ(myVec.size(), 3);
+}
